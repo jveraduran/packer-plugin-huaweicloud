@@ -19,7 +19,7 @@ Then, run [`packer init`](https://www.packer.io/docs/commands/init).
 packer {
   required_plugins {
     huaweicloud = {
-      version = ">= 0.4.0"
+      version = ">= 1.0.3"
       source  = "github.com/huaweicloud/huaweicloud"
     }
   }
